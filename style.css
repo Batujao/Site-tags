@@ -1,0 +1,90 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.topo {
+    width: 100%;
+    height: 200px;
+    background: url("https://img.freepik.com/vetores-gratis/ilustracao-do-conceito-de-front-end_114360-22213.jpg?ga=GA1.1.315120829.1743814086&semt=ais_hybrid&w=740") no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #444;
+    text-align: center;
+    border-radius: 25px;
+    font-size: 30px;
+}
+
+
+.menu {
+    width: 200px;
+    height: 100%;
+    background-color: #444;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    position: fixed;
+    top: 200px;  
+    left: 0;
+    border-radius: 25px;
+}
+
+
+.menu button {
+    margin: 10px;
+    padding: 10px 20px;
+    width: 80%;
+    background-color: #666;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+.menu button:hover {
+    background-color: #888;
+}
+
+
+.menu button i {
+    margin-right: 10px;
+}
+
+
+main {
+    margin-left: 220px;
+    padding: 20px;
+    background-color: #b3b3b3;
+    min-height: 100vh;
+}
+
+
+.msg h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+
+.fotos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+.fotos img {
+    width: 30%; 
+    height: auto;
+    object-fit: cover; 
+    border-radius: 8px;
+}
